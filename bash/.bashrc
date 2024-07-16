@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 iatest=$(expr index "$-" i)
-
+source ~/.nvm/nvm.sh && nvm exec
 #######################################################
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
 #######################################################
@@ -92,18 +92,6 @@ alias nano='edit'
 alias snano='sedit'
 alias vim='nvim'
 
-# Replace batcat with cat on Fedora as batcat is not available as a RPM in any form
-if command -v lsb_release >/dev/null; then
-    DISTRIBUTION=$(lsb_release -si)
-else
-    DISTRIBUTION=$(cat /etc/os-release | grep ^ID= | cut -d'=' -f2)
-fi
-
-if [ "$DISTRIBUTION" = "Fedora" ] || [ "$DISTRIBUTION" = "Arch" ]; then
-	alias cat='bat'
-else
-	alias cat='batcat'
-fi
 
 # To have colors for ls and all grep commands such as grep, egrep and zgrep
 export CLICOLOR=1
@@ -143,6 +131,21 @@ alias web='cd /var/www/html'
 # mount -o loop /home/NAMEOFISO.iso /home/ISOMOUNTDIR/
 # umount /home/NAMEOFISO.iso
 # (Both commands done as root only.)
+###### My Alias's###########
+## Go commands ##
+alias g.='cd ~/.dotfiles/' #go to dotfiles
+alias gcf='cd ~/.config/'
+alias gd='cd ~/Downloads/' #go to downloads
+alias gi3='nvim ~/.config/i3/config' #open i3 config
+alias gpb='nvim ~/.config/polybar/config.ini' #open polybar config
+alias gff='nvim ~/.config/fastfetch/config.jsonc' #open fastfetch config
+
+alias ff='fastfetch'
+alias install='yay -S'
+alias update='sudo yay -Syu'
+alias remove='sudo yay -R'
+alias reload='source ~/.bashrc'
+alias x='exit'
 
 #######################################################
 # GENERAL ALIAS'S
@@ -173,6 +176,7 @@ alias ping='ping -c 10'
 alias less='less -R'
 alias cls='clear'
 alias apt-get='sudo apt-get'
+alias pacman='sudo pacman'
 alias multitail='multitail --no-repeat -c'
 alias freshclam='sudo freshclam'
 alias vi='nvim'

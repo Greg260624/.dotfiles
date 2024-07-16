@@ -18,6 +18,7 @@ exec --no-startup-id feh --bg-scale ~/.config/background
 exec --no-startup-id xrdb -merge ~/.Xresources
 #exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 
+exec_always --no-startup-id redshift -P -O 2800
 # kill any hanging polybar processes
 exec_always killall polybar
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh

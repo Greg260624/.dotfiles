@@ -18,16 +18,19 @@
         },
         {
             "type": "host",
-            "key": "  󰌢"
+            "key": "  󰌢",
+	    "format": "{2}"
         },
         {
             "type": "cpu",
-            "key": "  "
+            "key": "  ",
+	    "format": "{1}"
         },
         {
             "type": "gpu",
             "detectionMethod": "pci",
-            "key": "  "
+            "key": "  ",
+	    "format": "{1} {3}"
         },
         {
             "type": "display",
