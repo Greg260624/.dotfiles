@@ -3,7 +3,8 @@ working_directory = "None"
 #Themes --
 import = [
  # "~/.config/alacritty/catppuccin-mocha.toml",
-  "~/.config/alacritty/nordic.toml",
+ # "~/.config/alacritty/nordic.toml",
+  "~/.cache/wal/colors-alacritty.toml",
 ]
 
 [colors]
@@ -16,17 +17,17 @@ TERM = "xterm-256color"
 size = 10.0
 
 [font.bold]
-family = "MesloLGS Nerd Font Mono"
+family = "MesloLGS Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "MesloLGS Nerd Font Mono"
+family = "MesloLGS Nerd Font"
 style = "Bold Italic"
 
 [font.italic]
-family = "MesloLGS Nerd Font Mono"
+family = "MesloLGS Nerd Font"
 style = "Italic"
 
 [font.normal]
-family = "MesloLGS Nerd Font Mono"
+family = "MesloLGS Nerd Font"
 style = "Regular"

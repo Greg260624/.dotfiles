@@ -1,0 +1,792 @@
+[ 17/07/24 23:46:09.024 x_log_error WARN ] X error 167 GLX_BAD_FB_CONFIG request 152 minor 0 serial 368
+[ 17/07/24 23:46:09.025 glx_init ERROR ] Failed to get GLX context.
+[ 17/07/24 23:46:09.025 initialize_backend FATAL ERROR ] Failed to initialize backend, aborting...
+[ 17/07/24 23:46:09.025 draw_callback_impl FATAL ERROR ] Pre-render preparation has failed, exiting...
+[ 17/07/24 23:47:14.738 atom_getter DEBUG ] Atom _NET_WM_WINDOW_OPACITY is 451
+[ 17/07/24 23:47:14.738 atom_getter DEBUG ] Atom _NET_FRAME_EXTENTS is 354
+[ 17/07/24 23:47:14.738 atom_getter DEBUG ] Atom WM_STATE is 396
+[ 17/07/24 23:47:14.738 atom_getter DEBUG ] Atom _NET_WM_NAME is 360
+[ 17/07/24 23:47:14.738 atom_getter DEBUG ] Atom _NET_WM_PID is 361
+[ 17/07/24 23:47:14.738 atom_getter DEBUG ] Atom WM_NAME is 39
+[ 17/07/24 23:47:14.738 atom_getter DEBUG ] Atom WM_CLASS is 67
+[ 17/07/24 23:47:14.738 atom_getter DEBUG ] Atom WM_ICON_NAME is 37
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom WM_TRANSIENT_FOR is 68
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom WM_WINDOW_ROLE is 351
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom WM_CLIENT_LEADER is 346
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom WM_CLIENT_MACHINE is 36
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom _NET_ACTIVE_WINDOW is 352
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom _COMPTON_SHADOW is 452
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE is 376
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom _XROOTPMAP_ID is 453
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom ESETROOT_PMAP_ID is 454
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom _XSETROOT_ID is 455
+[ 17/07/24 23:47:14.739 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DESKTOP is 419
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DOCK is 418
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_TOOLBAR is 416
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_MENU is 381
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_UTILITY is 385
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_SPLASH is 417
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DIALOG is 378
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_NORMAL is 382
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DROPDOWN_MENU is 380
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_POPUP_MENU is 383
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_TOOLTIP is 384
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_NOTIFICATION is 420
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_COMBO is 377
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DND is 379
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_STATE is 363
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_STATE_FULLSCREEN is 366
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom _NET_WM_BYPASS_COMPOSITOR is 456
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom UTF8_STRING is 345
+[ 17/07/24 23:47:14.740 atom_getter DEBUG ] Atom C_STRING is 457
+[ 17/07/24 23:47:14.741 atom_getter DEBUG ] Atom COMPTON_VERSION is 458
+[ 17/07/24 23:47:14.741 atom_getter DEBUG ] Atom _NET_WM_CM_S0 is 356
+[ 17/07/24 23:47:14.747 init_overlay DEBUG ] overlay = 0x00000097
+[ 17/07/24 23:47:14.762 file_watch_init DEBUG ] Starting watching for file changes
+[ 17/07/24 23:47:14.762 file_watch_add DEBUG ] Adding "/home/thinkpad/.config/picom/picom.conf" to watched files
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600064
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00800001
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00800003
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00800008
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x01200000
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x01400000
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x01600000
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x01800000
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x01e00000
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x02000000
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x02200000
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x02400000
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600002
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600065
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600067
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600068
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600069
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600071
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600072
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x0060006c
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x0060006b
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x006000a7
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x006000aa
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x006000c7
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x0060006a
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x0060006f
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x0060006e
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x0060006d
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600070
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00600098
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x00400000
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x01a00001
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x01a00003
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x01a0000b
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x01a00114
+[ 17/07/24 23:47:14.763 add_win DEBUG ] Adding window 0x02800004
+[ 17/07/24 23:47:14.763 session_init DEBUG ] Initial stack:
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x02800004
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x01a00114
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x01a0000b
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x01a00003
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x01a00001
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00400000
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600098
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600070
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x0060006d
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x0060006e
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x0060006f
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x0060006a
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x006000c7
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x006000aa
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x006000a7
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x0060006b
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x0060006c
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600072
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600071
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600069
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600068
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600067
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600065
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600002
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x02400000
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x02200000
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x02000000
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x01e00000
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x01800000
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x01600000
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x01400000
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x01200000
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00800008
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00800003
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00800001
+[ 17/07/24 23:47:14.763 session_init DEBUG ] 0x00600064
+[ 17/07/24 23:47:14.763 set_rr_scheduling INFO ] Failed to set real-time scheduling priority to 1.
+[ 17/07/24 23:47:14.763 handle_pending_updates DEBUG ] Delayed handling of events, entering critical section
+[ 17/07/24 23:47:14.764 fill_win DEBUG ] Managing window 0x02800004
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 1952 to window 0x02800004 ((null))
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 128 to window 0x02800004 ((null))
+[ 17/07/24 23:47:14.764 fill_win DEBUG ] Managing window 0x01a00114
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 1952 to window 0x01a00114 ((null))
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 128 to window 0x01a00114 ((null))
+[ 17/07/24 23:47:14.764 fill_win DEBUG ] Managing window 0x01a0000b
+[ 17/07/24 23:47:14.764 fill_win DEBUG ] Managing window 0x01a00003
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 1952 to window 0x01a00003 ((null))
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 128 to window 0x01a00003 ((null))
+[ 17/07/24 23:47:14.764 fill_win DEBUG ] Managing window 0x01a00001
+[ 17/07/24 23:47:14.764 fill_win DEBUG ] Managing window 0x00400000
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 1952 to window 0x00400000 ((null))
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 128 to window 0x00400000 ((null))
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 64 to window 0x00400000 ((null))
+[ 17/07/24 23:47:14.764 fill_win DEBUG ] Managing window 0x00600098
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 1952 to window 0x00600098 ((null))
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 128 to window 0x00600098 ((null))
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 64 to window 0x00600098 ((null))
+[ 17/07/24 23:47:14.764 fill_win DEBUG ] Managing window 0x00600070
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 1952 to window 0x00600070 ((null))
+[ 17/07/24 23:47:14.764 win_set_flags DEBUG ] Set flags 128 to window 0x00600070 ((null))
+[ 17/07/24 23:47:14.764 fill_win DEBUG ] Managing window 0x0060006d
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006d ((null))
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 128 to window 0x0060006d ((null))
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 64 to window 0x0060006d ((null))
+[ 17/07/24 23:47:14.765 fill_win DEBUG ] Managing window 0x0060006e
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006e ((null))
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 128 to window 0x0060006e ((null))
+[ 17/07/24 23:47:14.765 fill_win DEBUG ] Managing window 0x0060006f
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006f ((null))
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 128 to window 0x0060006f ((null))
+[ 17/07/24 23:47:14.765 fill_win DEBUG ] Managing window 0x0060006a
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006a ((null))
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 128 to window 0x0060006a ((null))
+[ 17/07/24 23:47:14.765 fill_win DEBUG ] Managing window 0x006000c7
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 1952 to window 0x006000c7 ((null))
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 128 to window 0x006000c7 ((null))
+[ 17/07/24 23:47:14.765 fill_win DEBUG ] Managing window 0x006000aa
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 1952 to window 0x006000aa ((null))
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 128 to window 0x006000aa ((null))
+[ 17/07/24 23:47:14.765 fill_win DEBUG ] Managing window 0x006000a7
+[ 17/07/24 23:47:14.765 win_set_flags DEBUG ] Set flags 1952 to window 0x006000a7 ((null))
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 128 to window 0x006000a7 ((null))
+[ 17/07/24 23:47:14.766 fill_win DEBUG ] Managing window 0x0060006b
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006b ((null))
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 128 to window 0x0060006b ((null))
+[ 17/07/24 23:47:14.766 fill_win DEBUG ] Managing window 0x0060006c
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006c ((null))
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 128 to window 0x0060006c ((null))
+[ 17/07/24 23:47:14.766 fill_win DEBUG ] Managing window 0x00600072
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 1952 to window 0x00600072 ((null))
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 128 to window 0x00600072 ((null))
+[ 17/07/24 23:47:14.766 fill_win DEBUG ] Managing window 0x00600071
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 1952 to window 0x00600071 ((null))
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 128 to window 0x00600071 ((null))
+[ 17/07/24 23:47:14.766 fill_win DEBUG ] Managing window 0x00600069
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 1952 to window 0x00600069 ((null))
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 128 to window 0x00600069 ((null))
+[ 17/07/24 23:47:14.766 fill_win DEBUG ] Managing window 0x00600068
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 1952 to window 0x00600068 ((null))
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 128 to window 0x00600068 ((null))
+[ 17/07/24 23:47:14.766 fill_win DEBUG ] Managing window 0x00600067
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 1952 to window 0x00600067 ((null))
+[ 17/07/24 23:47:14.766 win_set_flags DEBUG ] Set flags 128 to window 0x00600067 ((null))
+[ 17/07/24 23:47:14.766 fill_win DEBUG ] Managing window 0x00600065
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 1952 to window 0x00600065 ((null))
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 128 to window 0x00600065 ((null))
+[ 17/07/24 23:47:14.767 fill_win DEBUG ] Managing window 0x00600002
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 1952 to window 0x00600002 ((null))
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 128 to window 0x00600002 ((null))
+[ 17/07/24 23:47:14.767 fill_win DEBUG ] Managing window 0x02400000
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 1952 to window 0x02400000 ((null))
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 128 to window 0x02400000 ((null))
+[ 17/07/24 23:47:14.767 fill_win DEBUG ] Managing window 0x02200000
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 1952 to window 0x02200000 ((null))
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 128 to window 0x02200000 ((null))
+[ 17/07/24 23:47:14.767 fill_win DEBUG ] Managing window 0x02000000
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 1952 to window 0x02000000 ((null))
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 128 to window 0x02000000 ((null))
+[ 17/07/24 23:47:14.767 fill_win DEBUG ] Managing window 0x01e00000
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 1952 to window 0x01e00000 ((null))
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 128 to window 0x01e00000 ((null))
+[ 17/07/24 23:47:14.767 fill_win DEBUG ] Managing window 0x01800000
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 1952 to window 0x01800000 ((null))
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 128 to window 0x01800000 ((null))
+[ 17/07/24 23:47:14.767 fill_win DEBUG ] Managing window 0x01600000
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 1952 to window 0x01600000 ((null))
+[ 17/07/24 23:47:14.767 win_set_flags DEBUG ] Set flags 128 to window 0x01600000 ((null))
+[ 17/07/24 23:47:14.767 fill_win DEBUG ] Managing window 0x01400000
+[ 17/07/24 23:47:14.768 win_set_flags DEBUG ] Set flags 1952 to window 0x01400000 ((null))
+[ 17/07/24 23:47:14.768 win_set_flags DEBUG ] Set flags 128 to window 0x01400000 ((null))
+[ 17/07/24 23:47:14.768 fill_win DEBUG ] Managing window 0x01200000
+[ 17/07/24 23:47:14.768 win_set_flags DEBUG ] Set flags 1952 to window 0x01200000 ((null))
+[ 17/07/24 23:47:14.768 win_set_flags DEBUG ] Set flags 128 to window 0x01200000 ((null))
+[ 17/07/24 23:47:14.768 fill_win DEBUG ] Managing window 0x00800008
+[ 17/07/24 23:47:14.768 win_set_flags DEBUG ] Set flags 1952 to window 0x00800008 ((null))
+[ 17/07/24 23:47:14.768 win_set_flags DEBUG ] Set flags 128 to window 0x00800008 ((null))
+[ 17/07/24 23:47:14.768 fill_win DEBUG ] Managing window 0x00800003
+[ 17/07/24 23:47:14.768 win_set_flags DEBUG ] Set flags 1952 to window 0x00800003 ((null))
+[ 17/07/24 23:47:14.768 win_set_flags DEBUG ] Set flags 128 to window 0x00800003 ((null))
+[ 17/07/24 23:47:14.768 fill_win DEBUG ] Managing window 0x00800001
+[ 17/07/24 23:47:14.768 fill_win DEBUG ] Managing window 0x00600064
+[ 17/07/24 23:47:14.768 map_win_start DEBUG ] Mapping (0x00400000 "(null)")
+[ 17/07/24 23:47:14.768 map_win_start DEBUG ] Window (0x00400000) has type unknown
+[ 17/07/24 23:47:14.768 map_win_start DEBUG ] Window 0x00400000 has opacity 0.000000, opacity target is 1.000000
+[ 17/07/24 23:47:14.768 win_set_flags DEBUG ] Set flags 1 to window 0x00400000 ((null))
+[ 17/07/24 23:47:14.768 win_skip_fading DEBUG ] Skipping fading process of window 0x00400000 ((null))
+[ 17/07/24 23:47:14.768 win_clear_flags DEBUG ] Clear flags 64 from window 0x00400000 ((null))
+[ 17/07/24 23:47:14.768 win_recheck_client DEBUG ] (0x00400000): client self (override-redirected)
+[ 17/07/24 23:47:14.768 win_on_factor_change DEBUG ] Window 0x00400000 ((null)) factor change
+[ 17/07/24 23:47:14.768 win_determine_shadow DEBUG ] Determining shadow of window 0x00400000 ((null))
+[ 17/07/24 23:47:14.768 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.768 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00400000 ((null))
+[ 17/07/24 23:47:14.768 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:47:14.768 win_update_name DEBUG ] (0x00400000): _NET_WM_NAME unset, falling back to WM_NAME.
+[ 17/07/24 23:47:14.768 win_update_name DEBUG ] Unsetting window name for 0x00400000
+[ 17/07/24 23:47:14.769 win_on_factor_change DEBUG ] Window 0x00400000 ((null)) factor change
+[ 17/07/24 23:47:14.769 win_determine_shadow DEBUG ] Determining shadow of window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.769 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:47:14.769 win_clear_flags DEBUG ] Clear flags 32 from window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_set_flags DEBUG ] Set flags 9 to window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_set_flags DEBUG ] Set flags 9 to window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_on_factor_change DEBUG ] Window 0x00400000 ((null)) factor change
+[ 17/07/24 23:47:14.769 win_determine_shadow DEBUG ] Determining shadow of window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.769 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:47:14.769 win_clear_flags DEBUG ] Clear flags 256 from window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_clear_flags DEBUG ] Clear flags 512 from window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_update_monitor DEBUG ] Window 0x00400000 ((null)), -1x-1+1x1, is not entirely on any monitor
+[ 17/07/24 23:47:14.769 win_update_name DEBUG ] (0x00400000): _NET_WM_NAME unset, falling back to WM_NAME.
+[ 17/07/24 23:47:14.769 win_update_name DEBUG ] Unsetting window name for 0x00400000
+[ 17/07/24 23:47:14.769 win_clear_flags DEBUG ] Clear flags 128 from window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_clear_flags DEBUG ] Clear flags 128 from window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_on_factor_change DEBUG ] Window 0x00400000 ((null)) factor change
+[ 17/07/24 23:47:14.769 win_determine_shadow DEBUG ] Determining shadow of window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.769 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:47:14.769 win_clear_flags DEBUG ] Clear flags 1024 from window 0x00400000 ((null))
+[ 17/07/24 23:47:14.769 map_win_start DEBUG ] Mapping (0x00600098 "(null)")
+[ 17/07/24 23:47:14.769 map_win_start DEBUG ] Window (0x00600098) has type unknown
+[ 17/07/24 23:47:14.769 map_win_start DEBUG ] Window 0x00600098 has opacity 0.000000, opacity target is 1.000000
+[ 17/07/24 23:47:14.769 win_set_flags DEBUG ] Set flags 1 to window 0x00600098 ((null))
+[ 17/07/24 23:47:14.769 win_skip_fading DEBUG ] Skipping fading process of window 0x00600098 ((null))
+[ 17/07/24 23:47:14.769 win_clear_flags DEBUG ] Clear flags 64 from window 0x00600098 ((null))
+[ 17/07/24 23:47:14.769 win_recheck_client DEBUG ] (0x00600098): client 0x00400002
+[ 17/07/24 23:47:14.769 win_on_factor_change DEBUG ] Window 0x00600098 ((null)) factor change
+[ 17/07/24 23:47:14.769 win_determine_shadow DEBUG ] Determining shadow of window 0x00600098 ((null))
+[ 17/07/24 23:47:14.769 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.769 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00600098 ((null))
+[ 17/07/24 23:47:14.769 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:47:14.769 win_update_name DEBUG ] (0x00400002): _NET_WM_NAME unset, falling back to WM_NAME.
+[ 17/07/24 23:47:14.769 win_update_name DEBUG ] (0x00600098): client = 0x00400002, name = "polybar-toph_LVDS-1", ret = 1
+[ 17/07/24 23:47:14.770 win_on_factor_change DEBUG ] Window 0x00600098 (polybar-toph_LVDS-1) factor change
+[ 17/07/24 23:47:14.770 win_determine_shadow DEBUG ] Determining shadow of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.770 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:47:14.770 win_clear_flags DEBUG ] Clear flags 32 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_set_flags DEBUG ] Set flags 9 to window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_set_flags DEBUG ] Set flags 9 to window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_on_factor_change DEBUG ] Window 0x00600098 (polybar-toph_LVDS-1) factor change
+[ 17/07/24 23:47:14.770 win_determine_shadow DEBUG ] Determining shadow of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.770 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:47:14.770 win_clear_flags DEBUG ] Clear flags 256 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_clear_flags DEBUG ] Clear flags 512 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_update_monitor DEBUG ] Window 0x00600098 (polybar-toph_LVDS-1), 0x776+1280x24, is not entirely on any monitor
+[ 17/07/24 23:47:14.770 win_update_name DEBUG ] (0x00400002): _NET_WM_NAME unset, falling back to WM_NAME.
+[ 17/07/24 23:47:14.770 win_update_name DEBUG ] (0x00600098): client = 0x00400002, name = "polybar-toph_LVDS-1", ret = 0
+[ 17/07/24 23:47:14.770 win_set_flags DEBUG ] Set flags 1024 to window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_clear_flags DEBUG ] Clear flags 128 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_clear_flags DEBUG ] Clear flags 128 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_on_factor_change DEBUG ] Window 0x00600098 (polybar-toph_LVDS-1) factor change
+[ 17/07/24 23:47:14.770 win_determine_shadow DEBUG ] Determining shadow of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.770 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:47:14.770 win_clear_flags DEBUG ] Clear flags 1024 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.770 map_win_start DEBUG ] Mapping (0x0060006d "(null)")
+[ 17/07/24 23:47:14.770 map_win_start DEBUG ] Window (0x0060006d) has type unknown
+[ 17/07/24 23:47:14.770 map_win_start DEBUG ] Window 0x0060006d has opacity 0.000000, opacity target is 1.000000
+[ 17/07/24 23:47:14.770 win_set_flags DEBUG ] Set flags 1 to window 0x0060006d ((null))
+[ 17/07/24 23:47:14.770 win_skip_fading DEBUG ] Skipping fading process of window 0x0060006d ((null))
+[ 17/07/24 23:47:14.770 win_clear_flags DEBUG ] Clear flags 64 from window 0x0060006d ((null))
+[ 17/07/24 23:47:14.770 win_recheck_client DEBUG ] (0x0060006d): client 0x01c00003
+[ 17/07/24 23:47:14.770 win_on_factor_change DEBUG ] Window 0x0060006d ((null)) factor change
+[ 17/07/24 23:47:14.770 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d ((null))
+[ 17/07/24 23:47:14.770 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.770 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d ((null))
+[ 17/07/24 23:47:14.770 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:47:14.771 win_update_name DEBUG ] (0x0060006d): client = 0x01c00003, name = "thinkpad@archlinux:/etc", ret = 1
+[ 17/07/24 23:47:14.771 win_on_factor_change DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) factor change
+[ 17/07/24 23:47:14.771 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.771 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:47:14.771 win_update_opacity_target DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) opacity 1.000000, opacity target 0.700000, set old target 1.000000
+[ 17/07/24 23:47:14.771 win_skip_fading DEBUG ] Skipping fading process of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_clear_flags DEBUG ] Clear flags 32 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_set_flags DEBUG ] Set flags 9 to window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_set_flags DEBUG ] Set flags 9 to window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_on_factor_change DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) factor change
+[ 17/07/24 23:47:14.771 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.771 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:47:14.771 win_clear_flags DEBUG ] Clear flags 256 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_clear_flags DEBUG ] Clear flags 512 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_update_monitor DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc), 0x0+1280x776, is not entirely on any monitor
+[ 17/07/24 23:47:14.771 win_update_name DEBUG ] (0x0060006d): client = 0x01c00003, name = "thinkpad@archlinux:/etc", ret = 0
+[ 17/07/24 23:47:14.771 win_set_flags DEBUG ] Set flags 1024 to window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_clear_flags DEBUG ] Clear flags 128 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_clear_flags DEBUG ] Clear flags 128 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_on_factor_change DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) factor change
+[ 17/07/24 23:47:14.771 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.771 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:47:14.771 win_clear_flags DEBUG ] Clear flags 1024 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_on_factor_change DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) factor change
+[ 17/07/24 23:47:14.771 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:47:14.771 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:47:14.771 win_update_opacity_target DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) opacity 0.700000, opacity target 0.900000, set old target 0.700000
+[ 17/07/24 23:47:14.771 win_skip_fading DEBUG ] Skipping fading process of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 win_clear_flags DEBUG ] Clear flags 9 from window 0x00400000 ((null))
+[ 17/07/24 23:47:14.771 win_clear_flags DEBUG ] Clear flags 9 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:47:14.771 win_clear_flags DEBUG ] Clear flags 9 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:47:14.771 handle_pending_updates DEBUG ] Exited critical section
+[ 17/07/24 23:47:14.771 redirect_start DEBUG ] Redirecting the screen.
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_SGI_video_sync - present
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_SGI_swap_control - present
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_OML_sync_control - present
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_MESA_swap_control - present
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_EXT_swap_control - present
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_EXT_texture_from_pixmap - present
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_ARB_create_context - present
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_EXT_buffer_age - present
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_ARB_create_context_robustness - present
+[ 17/07/24 23:47:14.873 glxext_init INFO ] Extension GLX_MESA_query_renderer - present
+[ 17/07/24 23:47:14.874 x_log_error WARN ] X error 167 GLX_BAD_FB_CONFIG request 152 minor 0 serial 400
+[ 17/07/24 23:47:14.874 glx_init ERROR ] Failed to get GLX context.
+[ 17/07/24 23:47:14.874 initialize_backend FATAL ERROR ] Failed to initialize backend, aborting...
+[ 17/07/24 23:47:14.874 draw_callback_impl FATAL ERROR ] Pre-render preparation has failed, exiting...
+[ 17/07/24 23:51:32.171 atom_getter DEBUG ] Atom _NET_WM_WINDOW_OPACITY is 451
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom _NET_FRAME_EXTENTS is 354
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom WM_STATE is 396
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom _NET_WM_NAME is 360
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom _NET_WM_PID is 361
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom WM_NAME is 39
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom WM_CLASS is 67
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom WM_ICON_NAME is 37
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom WM_TRANSIENT_FOR is 68
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom WM_WINDOW_ROLE is 351
+[ 17/07/24 23:51:32.172 atom_getter DEBUG ] Atom WM_CLIENT_LEADER is 346
+[ 17/07/24 23:51:32.173 atom_getter DEBUG ] Atom WM_CLIENT_MACHINE is 36
+[ 17/07/24 23:51:32.173 atom_getter DEBUG ] Atom _NET_ACTIVE_WINDOW is 352
+[ 17/07/24 23:51:32.173 atom_getter DEBUG ] Atom _COMPTON_SHADOW is 452
+[ 17/07/24 23:51:32.173 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE is 376
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _XROOTPMAP_ID is 453
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom ESETROOT_PMAP_ID is 454
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _XSETROOT_ID is 455
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DESKTOP is 419
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DOCK is 418
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_TOOLBAR is 416
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_MENU is 381
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_UTILITY is 385
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_SPLASH is 417
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DIALOG is 378
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_NORMAL is 382
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DROPDOWN_MENU is 380
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_POPUP_MENU is 383
+[ 17/07/24 23:51:32.174 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_TOOLTIP is 384
+[ 17/07/24 23:51:32.175 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_NOTIFICATION is 420
+[ 17/07/24 23:51:32.175 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_COMBO is 377
+[ 17/07/24 23:51:32.175 atom_getter DEBUG ] Atom _NET_WM_WINDOW_TYPE_DND is 379
+[ 17/07/24 23:51:32.175 atom_getter DEBUG ] Atom _NET_WM_STATE is 363
+[ 17/07/24 23:51:32.175 atom_getter DEBUG ] Atom _NET_WM_STATE_FULLSCREEN is 366
+[ 17/07/24 23:51:32.175 atom_getter DEBUG ] Atom _NET_WM_BYPASS_COMPOSITOR is 456
+[ 17/07/24 23:51:32.175 atom_getter DEBUG ] Atom UTF8_STRING is 345
+[ 17/07/24 23:51:32.175 atom_getter DEBUG ] Atom C_STRING is 457
+[ 17/07/24 23:51:32.197 atom_getter DEBUG ] Atom COMPTON_VERSION is 458
+[ 17/07/24 23:51:32.198 atom_getter DEBUG ] Atom _NET_WM_CM_S0 is 356
+[ 17/07/24 23:51:32.199 init_overlay DEBUG ] overlay = 0x00000097
+[ 17/07/24 23:51:32.199 file_watch_init DEBUG ] Starting watching for file changes
+[ 17/07/24 23:51:32.199 file_watch_add DEBUG ] Adding "/home/thinkpad/.config/picom/picom.conf" to watched files
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600064
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00800001
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00800003
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00800008
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x01200000
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x01400000
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x01600000
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x01800000
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x01e00000
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x02000000
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x02200000
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x02400000
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600002
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600065
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600067
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600068
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600069
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600071
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600072
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x006000a7
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x006000aa
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x006000c7
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x0060006c
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x0060006b
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x0060006a
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x0060006f
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x0060006e
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x0060006d
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600070
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00600098
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x00400000
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x01a00001
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x01a00003
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x01a0000b
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x01a00114
+[ 17/07/24 23:51:32.200 add_win DEBUG ] Adding window 0x02800004
+[ 17/07/24 23:51:32.200 session_init DEBUG ] Initial stack:
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x02800004
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x01a00114
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x01a0000b
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x01a00003
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x01a00001
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00400000
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00600098
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00600070
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x0060006d
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x0060006e
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x0060006f
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x0060006a
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x0060006b
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x0060006c
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x006000c7
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x006000aa
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x006000a7
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00600072
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00600071
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00600069
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00600068
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00600067
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00600065
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x00600002
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x02400000
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x02200000
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x02000000
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x01e00000
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x01800000
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x01600000
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x01400000
+[ 17/07/24 23:51:32.200 session_init DEBUG ] 0x01200000
+[ 17/07/24 23:51:32.201 session_init DEBUG ] 0x00800008
+[ 17/07/24 23:51:32.201 session_init DEBUG ] 0x00800003
+[ 17/07/24 23:51:32.201 session_init DEBUG ] 0x00800001
+[ 17/07/24 23:51:32.201 session_init DEBUG ] 0x00600064
+[ 17/07/24 23:51:32.201 set_rr_scheduling INFO ] Failed to set real-time scheduling priority to 1.
+[ 17/07/24 23:51:32.201 queue_redraw VERBOSE ] Queue redraw, render_queued: 0, backend_busy: 0
+[ 17/07/24 23:51:32.201 draw_callback_impl TRACE ] Schedule delay: 17 us
+[ 17/07/24 23:51:32.201 handle_pending_updates DEBUG ] Delayed handling of events, entering critical section
+[ 17/07/24 23:51:32.201 fill_win DEBUG ] Managing window 0x02800004
+[ 17/07/24 23:51:32.201 win_set_flags DEBUG ] Set flags 1952 to window 0x02800004 ((null))
+[ 17/07/24 23:51:32.201 win_set_flags DEBUG ] Set flags 128 to window 0x02800004 ((null))
+[ 17/07/24 23:51:32.201 fill_win DEBUG ] Managing window 0x01a00114
+[ 17/07/24 23:51:32.201 win_set_flags DEBUG ] Set flags 1952 to window 0x01a00114 ((null))
+[ 17/07/24 23:51:32.201 win_set_flags DEBUG ] Set flags 128 to window 0x01a00114 ((null))
+[ 17/07/24 23:51:32.201 fill_win DEBUG ] Managing window 0x01a0000b
+[ 17/07/24 23:51:32.201 fill_win DEBUG ] Managing window 0x01a00003
+[ 17/07/24 23:51:32.201 win_set_flags DEBUG ] Set flags 1952 to window 0x01a00003 ((null))
+[ 17/07/24 23:51:32.201 win_set_flags DEBUG ] Set flags 128 to window 0x01a00003 ((null))
+[ 17/07/24 23:51:32.201 fill_win DEBUG ] Managing window 0x01a00001
+[ 17/07/24 23:51:32.201 fill_win DEBUG ] Managing window 0x00400000
+[ 17/07/24 23:51:32.201 win_set_flags DEBUG ] Set flags 1952 to window 0x00400000 ((null))
+[ 17/07/24 23:51:32.201 win_set_flags DEBUG ] Set flags 128 to window 0x00400000 ((null))
+[ 17/07/24 23:51:32.201 win_set_flags DEBUG ] Set flags 64 to window 0x00400000 ((null))
+[ 17/07/24 23:51:32.201 fill_win DEBUG ] Managing window 0x00600098
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 1952 to window 0x00600098 ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 128 to window 0x00600098 ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 64 to window 0x00600098 ((null))
+[ 17/07/24 23:51:32.202 fill_win DEBUG ] Managing window 0x00600070
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 1952 to window 0x00600070 ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 128 to window 0x00600070 ((null))
+[ 17/07/24 23:51:32.202 fill_win DEBUG ] Managing window 0x0060006d
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006d ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 128 to window 0x0060006d ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 64 to window 0x0060006d ((null))
+[ 17/07/24 23:51:32.202 fill_win DEBUG ] Managing window 0x0060006e
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006e ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 128 to window 0x0060006e ((null))
+[ 17/07/24 23:51:32.202 fill_win DEBUG ] Managing window 0x0060006f
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006f ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 128 to window 0x0060006f ((null))
+[ 17/07/24 23:51:32.202 fill_win DEBUG ] Managing window 0x0060006a
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006a ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 128 to window 0x0060006a ((null))
+[ 17/07/24 23:51:32.202 fill_win DEBUG ] Managing window 0x0060006b
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006b ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 128 to window 0x0060006b ((null))
+[ 17/07/24 23:51:32.202 fill_win DEBUG ] Managing window 0x0060006c
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 1952 to window 0x0060006c ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 128 to window 0x0060006c ((null))
+[ 17/07/24 23:51:32.202 fill_win DEBUG ] Managing window 0x006000c7
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 1952 to window 0x006000c7 ((null))
+[ 17/07/24 23:51:32.202 win_set_flags DEBUG ] Set flags 128 to window 0x006000c7 ((null))
+[ 17/07/24 23:51:32.202 fill_win DEBUG ] Managing window 0x006000aa
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x006000aa ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x006000aa ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x006000a7
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x006000a7 ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x006000a7 ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x00600072
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x00600072 ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x00600072 ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x00600071
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x00600071 ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x00600071 ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x00600069
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x00600069 ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x00600069 ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x00600068
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x00600068 ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x00600068 ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x00600067
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x00600067 ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x00600067 ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x00600065
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x00600065 ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x00600065 ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x00600002
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x00600002 ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x00600002 ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x02400000
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 1952 to window 0x02400000 ((null))
+[ 17/07/24 23:51:32.203 win_set_flags DEBUG ] Set flags 128 to window 0x02400000 ((null))
+[ 17/07/24 23:51:32.203 fill_win DEBUG ] Managing window 0x02200000
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1952 to window 0x02200000 ((null))
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 128 to window 0x02200000 ((null))
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x02000000
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1952 to window 0x02000000 ((null))
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 128 to window 0x02000000 ((null))
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x01e00000
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1952 to window 0x01e00000 ((null))
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 128 to window 0x01e00000 ((null))
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x01800000
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1952 to window 0x01800000 ((null))
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 128 to window 0x01800000 ((null))
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x01600000
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1952 to window 0x01600000 ((null))
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 128 to window 0x01600000 ((null))
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x01400000
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1952 to window 0x01400000 ((null))
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 128 to window 0x01400000 ((null))
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x01200000
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1952 to window 0x01200000 ((null))
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 128 to window 0x01200000 ((null))
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x00800008
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1952 to window 0x00800008 ((null))
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 128 to window 0x00800008 ((null))
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x00800003
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1952 to window 0x00800003 ((null))
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 128 to window 0x00800003 ((null))
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x00800001
+[ 17/07/24 23:51:32.204 fill_win DEBUG ] Managing window 0x00600064
+[ 17/07/24 23:51:32.204 win_process_update_flags TRACE ] Processing flags for window 0x02800004 ((null)), was visible: 0
+[ 17/07/24 23:51:32.204 win_process_update_flags TRACE ] Processing flags for window 0x01a00114 ((null)), was visible: 0
+[ 17/07/24 23:51:32.204 win_process_update_flags TRACE ] Processing flags for window 0x01a00003 ((null)), was visible: 0
+[ 17/07/24 23:51:32.204 win_process_update_flags TRACE ] Processing flags for window 0x00400000 ((null)), was visible: 0
+[ 17/07/24 23:51:32.204 map_win_start DEBUG ] Mapping (0x00400000 "(null)")
+[ 17/07/24 23:51:32.204 map_win_start DEBUG ] Window (0x00400000) has type unknown
+[ 17/07/24 23:51:32.204 map_win_start DEBUG ] Window 0x00400000 has opacity 0.000000, opacity target is 1.000000
+[ 17/07/24 23:51:32.204 win_set_flags DEBUG ] Set flags 1 to window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_skip_fading DEBUG ] Skipping fading process of window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_clear_flags DEBUG ] Clear flags 64 from window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_recheck_client DEBUG ] (0x00400000): client self (override-redirected)
+[ 17/07/24 23:51:32.205 win_on_factor_change DEBUG ] Window 0x00400000 ((null)) factor change
+[ 17/07/24 23:51:32.205 win_determine_shadow DEBUG ] Determining shadow of window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.205 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:51:32.205 win_update_frame_extents TRACE ] (0x00400000): 0, 0, 0, 0
+[ 17/07/24 23:51:32.205 win_update_name DEBUG ] (0x00400000): _NET_WM_NAME unset, falling back to WM_NAME.
+[ 17/07/24 23:51:32.205 win_update_name DEBUG ] Unsetting window name for 0x00400000
+[ 17/07/24 23:51:32.205 win_on_factor_change DEBUG ] Window 0x00400000 ((null)) factor change
+[ 17/07/24 23:51:32.205 win_determine_shadow DEBUG ] Determining shadow of window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.205 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:51:32.205 win_clear_flags DEBUG ] Clear flags 32 from window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_set_flags DEBUG ] Set flags 9 to window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_set_flags DEBUG ] Set flags 9 to window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_on_factor_change DEBUG ] Window 0x00400000 ((null)) factor change
+[ 17/07/24 23:51:32.205 win_determine_shadow DEBUG ] Determining shadow of window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.205 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:51:32.205 win_clear_flags DEBUG ] Clear flags 256 from window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_clear_flags DEBUG ] Clear flags 512 from window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_update_monitor DEBUG ] Window 0x00400000 ((null)), -1x-1+1x1, is not entirely on any monitor
+[ 17/07/24 23:51:32.205 win_update_frame_extents TRACE ] (0x00400000): 0, 0, 0, 0
+[ 17/07/24 23:51:32.205 win_update_name DEBUG ] (0x00400000): _NET_WM_NAME unset, falling back to WM_NAME.
+[ 17/07/24 23:51:32.205 win_update_name DEBUG ] Unsetting window name for 0x00400000
+[ 17/07/24 23:51:32.205 win_update_leader TRACE ] (0x00400000): client 0x00400000, leader 0000000000, cache 0x00400000
+[ 17/07/24 23:51:32.205 win_clear_flags DEBUG ] Clear flags 128 from window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_clear_flags DEBUG ] Clear flags 128 from window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_on_factor_change DEBUG ] Window 0x00400000 ((null)) factor change
+[ 17/07/24 23:51:32.205 win_determine_shadow DEBUG ] Determining shadow of window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.205 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:51:32.205 win_clear_flags DEBUG ] Clear flags 1024 from window 0x00400000 ((null))
+[ 17/07/24 23:51:32.205 win_process_update_flags TRACE ] Processing flags for window 0x00600098 ((null)), was visible: 0
+[ 17/07/24 23:51:32.205 map_win_start DEBUG ] Mapping (0x00600098 "(null)")
+[ 17/07/24 23:51:32.205 map_win_start DEBUG ] Window (0x00600098) has type unknown
+[ 17/07/24 23:51:32.205 map_win_start DEBUG ] Window 0x00600098 has opacity 0.000000, opacity target is 1.000000
+[ 17/07/24 23:51:32.205 win_set_flags DEBUG ] Set flags 1 to window 0x00600098 ((null))
+[ 17/07/24 23:51:32.205 win_skip_fading DEBUG ] Skipping fading process of window 0x00600098 ((null))
+[ 17/07/24 23:51:32.205 win_clear_flags DEBUG ] Clear flags 64 from window 0x00600098 ((null))
+[ 17/07/24 23:51:32.205 win_recheck_client DEBUG ] (0x00600098): client 0x00400002
+[ 17/07/24 23:51:32.206 win_on_factor_change DEBUG ] Window 0x00600098 ((null)) factor change
+[ 17/07/24 23:51:32.206 win_determine_shadow DEBUG ] Determining shadow of window 0x00600098 ((null))
+[ 17/07/24 23:51:32.206 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.206 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00600098 ((null))
+[ 17/07/24 23:51:32.206 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:51:32.206 win_update_frame_extents TRACE ] (0x00600098): 0, 0, 0, 0
+[ 17/07/24 23:51:32.206 win_update_name DEBUG ] (0x00400002): _NET_WM_NAME unset, falling back to WM_NAME.
+[ 17/07/24 23:51:32.206 win_update_name DEBUG ] (0x00600098): client = 0x00400002, name = "polybar-toph_LVDS-1", ret = 1
+[ 17/07/24 23:51:32.206 win_update_class TRACE ] (0x00600098): client = 0x00400002, instance = "polybar", general = "Polybar"
+[ 17/07/24 23:51:32.206 win_on_factor_change DEBUG ] Window 0x00600098 (polybar-toph_LVDS-1) factor change
+[ 17/07/24 23:51:32.206 win_determine_shadow DEBUG ] Determining shadow of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.206 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:51:32.206 win_clear_flags DEBUG ] Clear flags 32 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_set_flags DEBUG ] Set flags 9 to window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_set_flags DEBUG ] Set flags 9 to window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_on_factor_change DEBUG ] Window 0x00600098 (polybar-toph_LVDS-1) factor change
+[ 17/07/24 23:51:32.206 win_determine_shadow DEBUG ] Determining shadow of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.206 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:51:32.206 win_clear_flags DEBUG ] Clear flags 256 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_clear_flags DEBUG ] Clear flags 512 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_update_monitor DEBUG ] Window 0x00600098 (polybar-toph_LVDS-1), 0x776+1280x24, is not entirely on any monitor
+[ 17/07/24 23:51:32.206 win_update_frame_extents TRACE ] (0x00600098): 0, 0, 0, 0
+[ 17/07/24 23:51:32.206 win_update_name DEBUG ] (0x00400002): _NET_WM_NAME unset, falling back to WM_NAME.
+[ 17/07/24 23:51:32.206 win_update_name DEBUG ] (0x00600098): client = 0x00400002, name = "polybar-toph_LVDS-1", ret = 0
+[ 17/07/24 23:51:32.206 win_update_class TRACE ] (0x00600098): client = 0x00400002, instance = "polybar", general = "Polybar"
+[ 17/07/24 23:51:32.206 win_set_flags DEBUG ] Set flags 1024 to window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_update_leader TRACE ] (0x00600098): client 0x00400002, leader 0000000000, cache 0x00400002
+[ 17/07/24 23:51:32.206 win_clear_flags DEBUG ] Clear flags 128 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_clear_flags DEBUG ] Clear flags 128 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_on_factor_change DEBUG ] Window 0x00600098 (polybar-toph_LVDS-1) factor change
+[ 17/07/24 23:51:32.206 win_determine_shadow DEBUG ] Determining shadow of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.206 win_determine_blur_background DEBUG ] Determining blur-background of window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:51:32.206 win_clear_flags DEBUG ] Clear flags 1024 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.206 win_process_update_flags TRACE ] Processing flags for window 0x00600070 ((null)), was visible: 0
+[ 17/07/24 23:51:32.206 win_process_update_flags TRACE ] Processing flags for window 0x0060006d ((null)), was visible: 0
+[ 17/07/24 23:51:32.206 map_win_start DEBUG ] Mapping (0x0060006d "(null)")
+[ 17/07/24 23:51:32.206 map_win_start DEBUG ] Window (0x0060006d) has type unknown
+[ 17/07/24 23:51:32.206 map_win_start DEBUG ] Window 0x0060006d has opacity 0.000000, opacity target is 1.000000
+[ 17/07/24 23:51:32.206 win_set_flags DEBUG ] Set flags 1 to window 0x0060006d ((null))
+[ 17/07/24 23:51:32.206 win_skip_fading DEBUG ] Skipping fading process of window 0x0060006d ((null))
+[ 17/07/24 23:51:32.206 win_clear_flags DEBUG ] Clear flags 64 from window 0x0060006d ((null))
+[ 17/07/24 23:51:32.206 win_recheck_client DEBUG ] (0x0060006d): client 0x01c00003
+[ 17/07/24 23:51:32.207 win_on_factor_change DEBUG ] Window 0x0060006d ((null)) factor change
+[ 17/07/24 23:51:32.207 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d ((null))
+[ 17/07/24 23:51:32.207 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.207 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d ((null))
+[ 17/07/24 23:51:32.207 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:51:32.207 win_update_frame_extents TRACE ] (0x0060006d): 0, 0, 0, 0
+[ 17/07/24 23:51:32.207 win_update_name DEBUG ] (0x0060006d): client = 0x01c00003, name = "thinkpad@archlinux:/etc", ret = 1
+[ 17/07/24 23:51:32.207 win_update_class TRACE ] (0x0060006d): client = 0x01c00003, instance = "Alacritty", general = "Alacritty"
+[ 17/07/24 23:51:32.207 win_on_factor_change DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) factor change
+[ 17/07/24 23:51:32.207 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.207 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_on_factor_change DEBUG ] Window mode changed to 2
+[ 17/07/24 23:51:32.207 win_update_opacity_target DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) opacity 1.000000, opacity target 0.700000, set old target 1.000000
+[ 17/07/24 23:51:32.207 win_skip_fading DEBUG ] Skipping fading process of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_clear_flags DEBUG ] Clear flags 32 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_set_flags DEBUG ] Set flags 9 to window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_set_flags DEBUG ] Set flags 9 to window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_on_factor_change DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) factor change
+[ 17/07/24 23:51:32.207 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.207 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:51:32.207 win_clear_flags DEBUG ] Clear flags 256 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_clear_flags DEBUG ] Clear flags 512 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_update_monitor DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc), 0x0+1280x776, is not entirely on any monitor
+[ 17/07/24 23:51:32.207 win_update_frame_extents TRACE ] (0x0060006d): 0, 0, 0, 0
+[ 17/07/24 23:51:32.207 win_update_name DEBUG ] (0x0060006d): client = 0x01c00003, name = "thinkpad@archlinux:/etc", ret = 0
+[ 17/07/24 23:51:32.207 win_update_class TRACE ] (0x0060006d): client = 0x01c00003, instance = "Alacritty", general = "Alacritty"
+[ 17/07/24 23:51:32.207 win_set_flags DEBUG ] Set flags 1024 to window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_update_leader TRACE ] (0x0060006d): client 0x01c00003, leader 0000000000, cache 0x01c00003
+[ 17/07/24 23:51:32.207 win_clear_flags DEBUG ] Clear flags 128 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_clear_flags DEBUG ] Clear flags 128 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_on_factor_change DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) factor change
+[ 17/07/24 23:51:32.207 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.207 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:51:32.207 win_clear_flags DEBUG ] Clear flags 1024 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x0060006e ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x0060006f ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x0060006a ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x0060006b ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x0060006c ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x006000c7 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x006000aa ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x006000a7 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x00600072 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x00600071 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x00600069 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x00600068 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x00600067 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x00600065 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x00600002 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x02400000 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x02200000 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x02000000 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x01e00000 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x01800000 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x01600000 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x01400000 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x01200000 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x00800008 ((null)), was visible: 0
+[ 17/07/24 23:51:32.207 win_process_update_flags TRACE ] Processing flags for window 0x00800003 ((null)), was visible: 0
+[ 17/07/24 23:51:32.208 recheck_focus TRACE ] 0x01c00003 (0x0060006d "thinkpad@archlinux:/etc") focused.
+[ 17/07/24 23:51:32.208 win_on_factor_change DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) factor change
+[ 17/07/24 23:51:32.208 win_determine_shadow DEBUG ] Determining shadow of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.208 win_determine_shadow DEBUG ] Shadow disabled by wintypes
+[ 17/07/24 23:51:32.208 win_determine_blur_background DEBUG ] Determining blur-background of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.208 win_on_factor_change DEBUG ] Window mode changed to 0
+[ 17/07/24 23:51:32.208 win_update_opacity_target DEBUG ] Window 0x0060006d (thinkpad@archlinux:/etc) opacity 0.700000, opacity target 0.900000, set old target 0.700000
+[ 17/07/24 23:51:32.208 win_skip_fading DEBUG ] Skipping fading process of window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.208 win_clear_flags DEBUG ] Clear flags 9 from window 0x00400000 ((null))
+[ 17/07/24 23:51:32.208 win_clear_flags DEBUG ] Clear flags 9 from window 0x00600098 (polybar-toph_LVDS-1)
+[ 17/07/24 23:51:32.208 win_clear_flags DEBUG ] Clear flags 9 from window 0x0060006d (thinkpad@archlinux:/etc)
+[ 17/07/24 23:51:32.208 handle_pending_updates DEBUG ] Exited critical section
+[ 17/07/24 23:51:32.208 draw_callback_impl TRACE ] handle_pending_updates took: 7070 us
+[ 17/07/24 23:51:32.208 paint_preprocess TRACE ] Window 0x00400000 ((null)) will not be painted because it is positioned outside of the screen
+[ 17/07/24 23:51:32.208 paint_preprocess TRACE ] Window 0x00600098 (polybar-toph_LVDS-1) will be painted
+[ 17/07/24 23:51:32.208 paint_preprocess TRACE ] Window 0x0060006d (thinkpad@archlinux:/etc) will be painted
+[ 17/07/24 23:51:32.208 redirect_start DEBUG ] Redirecting the screen.
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_SGI_video_sync - present
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_SGI_swap_control - present
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_OML_sync_control - present
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_MESA_swap_control - present
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_EXT_swap_control - present
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_EXT_texture_from_pixmap - present
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_ARB_create_context - present
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_EXT_buffer_age - present
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_ARB_create_context_robustness - present
+[ 17/07/24 23:51:32.296 glxext_init INFO ] Extension GLX_MESA_query_renderer - present
+[ 17/07/24 23:51:32.296 x_log_error WARN ] X error 167 GLX_BAD_FB_CONFIG request 152 minor 0 serial 400
+[ 17/07/24 23:51:32.296 glx_init ERROR ] Failed to get GLX context.
+[ 17/07/24 23:51:32.296 initialize_backend FATAL ERROR ] Failed to initialize backend, aborting...
+[ 17/07/24 23:51:32.296 draw_callback_impl FATAL ERROR ] Pre-render preparation has failed, exiting...
