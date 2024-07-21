@@ -4,14 +4,7 @@
 ## Github : @adi1090x
 #
 ## Rofi   : Power Menu
-#
-## Available Styles
-#
-## style-1   style-2   style-3   style-4   style-5
 
-# Current Theme
-dir="$HOME/.config/rofi/powermenu/type-4"
-theme='style-5'
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
@@ -23,29 +16,16 @@ reboot=''
 lock=''
 suspend=''
 logout=''
-yes=''
-no=''
+
 
 # Rofi CMD
 rofi_cmd() {
 	rofi -dmenu \
 		-p "Goodbye ${USER}" \
 		-mesg "Uptime: $uptime" \
-		-theme ${dir}/${theme}.rasi
+		-theme "$HOME/.config/rofi/themes/powermenu.rasi"
 }
 
-# Confirmation CMD
-confirm_cmd() {
-	rofi -dmenu \
-		-p 'Confirmation' \
-		-mesg 'Are you Sure?' \
-		-theme ${dir}/shared/confirm.rasi
-}
-
-# Ask for confirmation
-confirm_exit() {
-	echo -e "$yes\n$no" | confirm_cmd
-}
 
 # Pass variables to rofi dmenu
 run_rofi() {
@@ -54,8 +34,6 @@ run_rofi() {
 
 # Execute Command
 run_cmd() {
-	selected="$(confirm_exit)"
-	if [[ "$selected" == "$yes" ]]; then
 		if [[ $1 == '--shutdown' ]]; then
 			systemctl poweroff
 		elif [[ $1 == '--reboot' ]]; then
