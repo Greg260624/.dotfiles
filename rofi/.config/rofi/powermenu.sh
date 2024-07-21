@@ -2,30 +2,24 @@
 
 ## Author : Aditya Shakya (adi1090x)
 ## Github : @adi1090x
-#
-## Rofi   : Power Menu
-
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
 
-
 # Options
-shutdown=''
-reboot=''
-lock=''
-suspend=''
-logout=''
-
+shutdown='󰐥'
+reboot='󰜉'
+lock=''
+suspend=''
+logout='󰍃'
 
 # Rofi CMD
 rofi_cmd() {
 	rofi -dmenu \
-		-p "Goodbye ${USER}" \
+		-p "" \
 		-mesg "Uptime: $uptime" \
 		-theme "$HOME/.config/rofi/themes/powermenu.rasi"
 }
-
 
 # Pass variables to rofi dmenu
 run_rofi() {
@@ -34,50 +28,57 @@ run_rofi() {
 
 # Execute Command
 run_cmd() {
-		if [[ $1 == '--shutdown' ]]; then
+	case $1 in
+		--shutdown)
 			systemctl poweroff
-		elif [[ $1 == '--reboot' ]]; then
+			;;
+		--reboot)
 			systemctl reboot
-		elif [[ $1 == '--suspend' ]]; then
+			;;
+		--suspend)
 			mpc -q pause
 			amixer set Master mute
 			systemctl suspend
-		elif [[ $1 == '--logout' ]]; then
-			if [[ "$DESKTOP_SESSION" == 'openbox' ]]; then
-				openbox --exit
-			elif [[ "$DESKTOP_SESSION" == 'bspwm' ]]; then
-				bspc quit
-			elif [[ "$DESKTOP_SESSION" == 'i3' ]]; then
-				i3-msg exit
-			elif [[ "$DESKTOP_SESSION" == 'plasma' ]]; then
-				qdbus org.kde.ksmserver /KSMServer logout 0 0 0
-			fi
-		fi
-	else
-		exit 0
-	fi
+			;;
+		--logout)
+			case "$DESKTOP_SESSION" in
+				openbox)
+					openbox --exit
+					;;
+				bspwm)
+					bspc quit
+					;;
+				i3)
+					i3-msg exit
+					;;
+				plasma)
+					qdbus org.kde.ksmserver /KSMServer logout 0 0 0
+					;;
+			esac
+			;;
+	esac
 }
 
 # Actions
 chosen="$(run_rofi)"
-case ${chosen} in
-    $shutdown)
+case "${chosen}" in
+    "${shutdown}")
 		run_cmd --shutdown
         ;;
-    $reboot)
+    "${reboot}")
 		run_cmd --reboot
         ;;
-    $lock)
+    "${lock}")
 		if [[ -x '/usr/bin/betterlockscreen' ]]; then
 			betterlockscreen -l
 		elif [[ -x '/usr/bin/i3lock' ]]; then
 			i3lock
 		fi
         ;;
-    $suspend)
+    "${suspend}")
 		run_cmd --suspend
         ;;
-    $logout)
+    "${logout}")
 		run_cmd --logout
         ;;
 esac
