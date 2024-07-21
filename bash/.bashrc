@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 iatest=$(expr index "$-" i)
-#source ~/.nvm/nvm.sh && nvm exec
+
 #######################################################
 # SOURCED ALIAS'S AND SCRIPTS BY zachbrowne.me
 #######################################################
@@ -52,7 +52,7 @@ if [[ $iatest -gt 0 ]]; then bind "set bell-style visible"; fi
 # Expand the history size
 export HISTFILESIZE=10000
 export HISTSIZE=500
-export HISTTIMEFORMAT="%F %T" # add timestamp to history
+export HISTTIMEFORMAT="%F %T " # add timestamp to history
 
 # Don't put duplicate lines in the history and do not add lines that start with a space
 export HISTCONTROL=erasedups:ignoredups:ignorespace
@@ -69,9 +69,6 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
-
-# Seeing as other scripts will use it might as well export it
-export LINUXTOOLBOXDIR="$HOME/linuxtoolbox"
 
 # Allow ctrl-S for history navigation (with ctrl-R)
 [[ $- == *i* ]] && stty -ixon
@@ -121,16 +118,6 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 # MACHINE SPECIFIC ALIAS'S
 #######################################################
 
-# Alias's for SSH
-# alias SERVERNAME='ssh YOURWEBSITE.com -l USERNAME -p PORTNUMBERHERE'
-
-# Alias's to change the directory
-alias web='cd /var/www/html'
-
-# Alias's to mount ISO files
-# mount -o loop /home/NAMEOFISO.iso /home/ISOMOUNTDIR/
-# umount /home/NAMEOFISO.iso
-# (Both commands done as root only.)
 ###### My Alias's###########
 ## Go commands ##
 alias g.='cd ~/.dotfiles/' #go to dotfiles
@@ -146,6 +133,11 @@ alias update='sudo yay -Syu'
 alias remove='sudo yay -R'
 alias reload='source ~/.bashrc'
 alias x='exit'
+
+alias push="git push origin"
+alias pull="git pull origin"
+alias commit="git commit -m"
+alias add="git add ."
 
 #######################################################
 # GENERAL ALIAS'S
@@ -271,18 +263,6 @@ alias logs="sudo find /var/log -type f -exec file {} \; | grep 'text' | cut -d' 
 alias sha1='openssl sha1'
 
 alias clickpaste='sleep 3; xdotool type "$(xclip -o -selection clipboard)"'
-
-# KITTY - alias to be able to use kitty features when connecting to remote servers(e.g use tmux on remote server)
-
-alias kssh="kitty +kitten ssh"
-
-# alias to cleanup unused docker containers, images, networks, and volumes
-
-alias docker-clean=' \
-  docker container prune -f ; \
-  docker image prune -f ; \
-  docker network prune -f ; \
-  docker volume prune -f '
 
 #######################################################
 # SPECIAL FUNCTIONS
@@ -495,40 +475,7 @@ ver() {
     esac
 }
 
-# Automatically install the needed support files for this .bashrc file
-install_bashrc_support() {
-	local dtype
-	dtype=$(distribution)
 
-	case $dtype in
-		"redhat")
-			sudo yum install multitail tree zoxide trash-cli fzf bash-completion fastfetch
-			;;
-		"suse")
-			sudo zypper install multitail tree zoxide trash-cli fzf bash-completion fastfetch
-			;;
-		"debian")
-			sudo apt-get install multitail tree zoxide trash-cli fzf bash-completion
-			# Fetch the latest fastfetch release URL for linux-amd64 deb file
-			FASTFETCH_URL=$(curl -s https://api.github.com/repos/fastfetch-cli/fastfetch/releases/latest | grep "browser_download_url.*linux-amd64.deb" | cut -d '"' -f 4)
-
-			# Download the latest fastfetch deb file
-			curl -sL $FASTFETCH_URL -o /tmp/fastfetch_latest_amd64.deb
-
-			# Install the downloaded deb file using apt-get
-			sudo apt-get install /tmp/fastfetch_latest_amd64.deb
-			;;
-		"arch")
-			sudo paru multitail tree zoxide trash-cli fzf bash-completion fastfetch
-			;;
-		"slackware")
-			echo "No install support for Slackware"
-			;;
-		*)
-			echo "Unknown distribution"
-			;;
-	esac
-}
 
 # IP address lookup
 alias whatismyip="whatsmyip"
@@ -664,4 +611,6 @@ export PATH=$PATH:"$HOME/.local/bin:$HOME/.cargo/bin:/var/lib/flatpak/exports/bi
 
 eval "$(starship init bash)"
 eval "$(zoxide init bash)"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
